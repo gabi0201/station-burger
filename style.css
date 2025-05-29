@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFF8DC;
+    color: #2F1B0C;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+}
+
+.fachada{
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #8B0000;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #2F1B0C;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.titulo-sobre {
+    font-size: 30px;
+    color: #8B0000;
+}
+
+.titulo-reserva {
+    margin-top: 20px;
+    font-size: 28px;
+    color: #8B0000;
+    background-color: #FFD700;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+p{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav{
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #8B0000;
+    border-radius: 5px;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
